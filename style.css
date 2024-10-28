@@ -1,0 +1,41 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+@media (max-width: 600px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    th, td {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: black;
+  }
+  
+  /* selected link */
+  a:active {
+    color: black;
+  }
